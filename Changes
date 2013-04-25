@@ -1,0 +1,83 @@
+==================================================
+Changes from 1739-07-12 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.001 at 2013-04-25 00:51:53 +0000
+------------------------------------------
+
+  Change: cbca35636fd0a8b80b437d69f19d126d4037e49b
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-25 02:51:32 +0000
+
+    More corrections... lets release 
+
+  Change: 9bb1cf27de4381c80c05bfc93164fe566da55080
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-25 01:49:11 +0000
+
+    Fixed test and some details 
+
+  Change: 49f07495e55f6cfc4defc7906dbd0ff172ff1a77
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-25 01:22:44 +0000
+
+    Added updated travis.yml 
+
+  Change: 5b7e7d6c3246fc0ffd63d7905e57648be07be549
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-25 01:19:51 +0000
+
+    Added travis.yml, made default templates non-duckpan referenced 
+
+  Change: cb0fd7c5ea70beac7a7b53e5d353329e1d4ce936
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-25 00:49:55 +0000
+
+    Added asset handling via commandline options 
+
+  Change: 325cadc1f3042b07a5ec481d69a6b36c976e3957
+  Author: Doug Brown <doug@duckduckgo.com>
+  Date : 2013-04-23 22:09:32 +0000
+
+    styling for index, visual updates for entries 
+
+  Change: 34144300840731ca22c760684752ac66169a5b80
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-24 02:45:16 +0000
+
+    More WIP.... assets there... 
+
+  Change: e3ff1b1bf0701d274b2c8c9329892bbc98955046
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-23 20:28:31 +0000
+
+    Still WIP 
+
+  Change: 9bc0ffc8cef7f06889a4d993775e58bdba14dbd4
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-23 05:16:48 +0000
+
+    Tuned up requirements 
+
+  Change: 315ad7000336c33f48e1db328880597565cabc26
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-23 05:13:34 +0000
+
+    Still work in progress.... 
+
+  Change: 69af8514a0f31a39fa8c8f60c1899b2b12f322cd
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-04-10 13:24:48 +0000
+
+    WIP 
+
+  Change: 3b07984fbaa049a11bb23c87530bdd8ba1dcf7ee
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-03-27 05:00:51 +0000
+
+    initial commit 
+
+================
+End of releases.
+================
