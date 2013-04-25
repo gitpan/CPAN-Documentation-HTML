@@ -3,17 +3,12 @@ BEGIN {
   $CPAN::Documentation::HTML::PodSimple::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $CPAN::Documentation::HTML::PodSimple::VERSION = '0.001';
+  $CPAN::Documentation::HTML::PodSimple::VERSION = '0.002';
 }
+# ABSTRACT: Pod::Simple::XHTML Subclass for CPAN::Documentation::HTML
 
 use Moo;
 extends 'Pod::Simple::XHTML';
-
-# sub html_header_before_title { '' }
-# sub html_header_after_title { '' }
-# sub html_footer { '' }
-
-# sub do_beginning { 1 }
 
 1;
 __END__
@@ -21,19 +16,29 @@ __END__
 
 =head1 NAME
 
-CPAN::Documentation::HTML::PodSimple
+CPAN::Documentation::HTML::PodSimple - Pod::Simple::XHTML Subclass for CPAN::Documentation::HTML
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over 4
+
+=item *
 
 Torsten Raudssus <torsten@raudss.us>
 
+=item *
+
+Doug Brown <doug@duckduckgo.com>
+
+=back
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Torsten Raudssus.
+This software is copyright (c) 2013 by Torsten Raudssus & DuckDuckGo, Inc..
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

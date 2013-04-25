@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution CPAN-Documentation-HTML,
-version 0.001:
+version 0.002:
 
   Generate files for documentations of CPAN Distributions or simple packages
 
-This software is copyright (c) 2013 by Torsten Raudssus.
+This software is copyright (c) 2013 by Torsten Raudssus & DuckDuckGo, Inc..
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

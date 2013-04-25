@@ -12,7 +12,7 @@ install_share dist => "share";
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Generate files for documentations of CPAN Distributions or simple packages",
-  "AUTHOR" => "Torsten Raudssus <torsten\@raudss.us>",
+  "AUTHOR" => "Torsten Raudssus <torsten\@raudss.us>, Doug Brown <doug\@duckduckgo.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     "Test::LoadAllModules" => "0.021",
     "Test::More" => "0.98"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

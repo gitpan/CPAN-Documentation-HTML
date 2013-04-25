@@ -2,6 +2,7 @@
 abstract: 'Generate files for documentations of CPAN Distributions or simple packages'
 author:
   - 'Torsten Raudssus <torsten@raudss.us>'
+  - 'Doug Brown <doug@duckduckgo.com>'
 build_requires:
   Test::LoadAllModules: 0.021
   Test::More: 0.98
@@ -28,7 +29,7 @@ requires:
 resources:
   homepage: https://github.com/Getty/p5-cpan-documentation-html
   repository: https://github.com/Getty/p5-cpan-documentation-html.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   perl:
     version: 5.014002

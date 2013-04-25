@@ -17,15 +17,40 @@ cpan_documentation_html - Command line tool for using CPAN::Documentation::HTML
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 
-L<App::CpanDocumentation> for more informations.
+B<Still work in progress - API changes may apply>
+
+B<cpan_documentation_html> is the tool to use L<CPAN::Documentation::HTML>
+directly from your Command Line. You can directly change all aspects from the
+library, like template and assets.
 
 =head1 SYNPOSIS
 
+  cpan_documentation_html --root /cpan/repository/root MyApp-0.001.tar.gz
+
+  cpan_documentation_html --root /cpan/repository/root mygitrepository/
+
+  cpan_documentation_html --root /cpan/repository/root \
+    -bin some_directory_with_scripts/ -bin several_of_them/ \
+    -lib some_directory_with_modules/ -lib also_several/ \
+    -file MyApp-0.001.tar.gz -file OtherApp-0.001.tar.gz \
+    -dir some_dir_with_bins_and_libs/ \
+    -dir like_a_git_repository_of_a_perl/
+
+=head1 PARAMETERS
+
+=head2 root
+
+If not given, the current directory will be assumed the root of the repository.
+B<cpan_documentation_html> will be dropping a cache file there, and install all
+the documentation in the B</perldoc/> subdirectory (if not changed via L</path>).
+
 =head1 SEE ALSO
+
+L<CPAN::Documentation::HTML>
 
 =head1 SUPPORT
 
@@ -40,15 +65,25 @@ Repository
 
 Issue Tracker
 
-  http://github.com/Getty/p5-cpan-documentation/-htmlissues
+  http://github.com/Getty/p5-cpan-documentation-html/issues
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over 4
+
+=item *
 
 Torsten Raudssus <torsten@raudss.us>
 
+=item *
+
+Doug Brown <doug@duckduckgo.com>
+
+=back
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Torsten Raudssus.
+This software is copyright (c) 2013 by Torsten Raudssus & DuckDuckGo, Inc..
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
